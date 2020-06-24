@@ -1,9 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Webpage!</title>
-  </head>
-  <body>
-    Hello, world!
-  </body>
+
+<head>
+  <title>My Webpage!</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    #top {
+      background-color: teal;
+      width: 300px;
+      height: 400px;
+      margin: 50px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      font-size: 28px;
+    }
+    .name {
+      font-size: 50px;
+    }
+    table {
+      border: 2px solid black;
+      border-collapse: collapse;
+      width: 75%;
+    }
+    th, td {
+      border: 1px solid black;
+      text-align: center;
+    }
+    th{
+      background-color: lightgrey;
+    }
+  </style>
+</head>
+
+<body>
+  Hello, world!
+  <h1>This is the largest headlines</h1>
+  <h1>This is the secondest largest headlines</h1>
+  <p>Hello, world! This is a paragraph of text</p>
+  <p>This is another paragraph!</p>
+  Unordered List
+  <div id="top">
+    Hello, <span class="name">top</span>!
+  </div>
+  <ul>
+    <li>one</li>
+    <li>two</li>
+  </ul>
+  Ordered List:
+  <ol>
+    <li>three</li>
+    <li>two</li>
+    <li>one</li>
+    <li>four</>
+  </ol>
+  <form>
+    <input type="text" placeholder="Full Name" name="name">
+    <button> Submitt</button>
+  </form>
+  <img src="cat.jpg" alt="cat" width="50%">
+  <h1>Presidents</h1>
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Years in Office</th>
+    </tr>
+    <tr>
+      <td>George</td>
+      <td>Washington</td>
+      <td>1789-1797</td>
+    </tr>
+    <tr>
+      <td>Dan</td>
+      <td>The Great</td>
+      <td>1970-2068</td>
+    </tr>
+  </table>
+</body>
 </html>
